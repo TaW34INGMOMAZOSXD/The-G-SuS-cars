@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Hot Wheels</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #001f3f; /* Azul oscuro */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .promociones, .informacion, .contacto, .precios {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #001f3f; /* Azul oscuro */
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .precio {
+            background-color: #004d40; /* Verde oscuro */
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .btn-comprar {
+            background-color: #001f3f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-comprar:hover {
+            background-color: #004d40;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Venta de Coches de Juguete - Hot Wheels</h1>
+</header>
+
+<nav>
+    <a href="#promociones">Promociones</a>
+    <a href="#informacion">Información</a>
+    <a href="#precios">Precios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="container">
+    <section id="promociones" class="promociones">
+        <h2>Promociones</h2>
+        <p>¡Aprovecha nuestras ofertas especiales en coches de juguete Hot Wheels!</p>
+        <ul>
+            <li>3x2 en modelos seleccionados</li>
+            <li>10% de descuento en compras mayores a $50</li>
+            <li>Envío gratis en pedidos mayores a $100</li>
+        </ul>
+    </section>
+
+    <section id="informacion" class="informacion">
+        <h2>Información</h2>
+        <p>Somos una tienda especializada en la venta de coches de juguete de la marca Hot Wheels. Tenemos una amplia variedad de modelos y ediciones limitadas.</p>
+    </section>
+
+    <section id="precios" class="precios">
+        <h2>Lista de Precios</h2>
+        <div class="precio">
+            <p>Hot Wheels Clásico - $10</p>
+            <button class="btn-comprar">Comprar</button>
+        </div>
+        <div class="precio">
+            <p>Hot Wheels Edición Especial - $20</p>
+            <button class="btn-comprar">Comprar</button>
+        </div>
+        <div class="precio">
+            <p>Hot Wheels Colección Completa - $100</p>
+            <button class="btn-comprar">Comprar</button>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o quieres realizar un pedido personalizado, puedes contactarnos a través del siguiente correo:</p>
+        <p><strong>Email:</strong> ventas@cochesdejuguete.com</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Venta de Coches de Juguete - Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
